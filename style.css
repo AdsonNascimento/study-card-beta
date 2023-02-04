@@ -110,6 +110,7 @@ main a:hover {
         width: 100vw;
         height: 80vh;
         padding: 5rem 2rem;
+        box-shadow: none;
     }
 
     main h1 {
