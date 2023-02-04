@@ -109,7 +109,7 @@ main a:hover {
     main {
         width: 100vw;
         height: 100vh;
-        padding: 10rem 2rem;
+        padding: 5rem 2rem;
     }
 
     main h1 {
@@ -136,5 +136,9 @@ main a:hover {
 
     .login-info input {
         margin-bottom: 5rem;
+    }
+
+    form button {
+        padding: 1rem;
     }
 }
