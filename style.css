@@ -139,6 +139,6 @@ main a:hover {
     }
 
     form button {
-        padding: 1rem;
+        height: 5rem;
     }
 }
