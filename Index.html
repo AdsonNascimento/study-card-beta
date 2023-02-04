@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="global.css">
+</head>
+<body>
+    <main>
+        <h1>Study<span>Card</span></h1>
+        
+        <form id="login" action="" method="post">
+
+            <h2>login:</h2>
+
+            <div class="login-info">
+                <label for="user">E-mail</label>
+                <input id="user" type="email" placeholder="e-mail">
+            </div>
+            
+            <div class="login-info">
+                <label for="password">Senha:</label>
+                <input id="password" type="password" placeholder="senha">
+            </div>
+            
+            <button type="submit">entrar</button>
+        </form>
+
+        <a href="#">cadastre-se</a>
+        
+        <script>
+            const form = document.getElementById('login')
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+            })
+        </script>
+    </main>
+</body>
+</html>
